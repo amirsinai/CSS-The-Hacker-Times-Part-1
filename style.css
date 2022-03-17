@@ -2,34 +2,85 @@
 body {
   background-color: #eee;
   font-family: Source Sans Pro;
+  font-weight: 300;
 }
-
-nav,
-ul,
-li {
-  display: inline-block;
-  list-style: none;
-  padding: 5px;
-  padding-left: 0px;
-}
-header {
+header h1 {
   font-family: Abril Fatface;
+  margin: 0;
   text-align: center;
+  font-size: 2.5em;
 }
-.newspaper-container {
-  background-color: white;
-  box-shadow: #ddd;
-  padding: 50px;
-}
-h5 {
-  color: #dd3232;
-  font-family: Roboto Slab;
+a {
+  text-decoration: none;
 }
 nav {
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  top: 0;
+  padding: 5px 0;
+  margin: 1em 0;
+  position: sticky;
+  background: white;
 }
-main {
-  display: block;
-  width: 60%;
+nav ul {
+  list-style: none;
+  margin: 0;
 }
+nav li {
+  display: inline-block;
+  padding: 0 0.5em;
+}
+nav a {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.newspaper-container {
+  background-color: white;
+  box-shadow: 1px 1px 5px #ddd;
+  padding: 1em;
+  width: 700px;
+  margin: 3em auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+main h2 {
+  font-family: Roboto Slab;
+  margin-bottom: 0;
+}
+p {
+  font-size: 0.9em;
+  text-align: justify;
+  padding: 0 10px;
+}
+.date {
+  font-size: 0.8em;
+}
+main h5 {
+  color: #dd3232;
+  font-family: Roboto Slab;
+  margin-top: 0.5em;
+}
+main img {
+  width: 100%;
+}
+
+.more-articles {
+  border-top: 1px solid #eee;
+  margin-top: 1.5em;
+  text-align: center;
+}
+.more-articles section {
+  display: inline-block;
+  width: 40%;
+  margin: 0.5em 02em;
+}
+.more-articles img {
+  width: 100%;
+}
+.more-articles h4 {
+  font-family: "Roboto Slab", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  text-align: left;
+}
+/* Completed on 3/17/22 */
